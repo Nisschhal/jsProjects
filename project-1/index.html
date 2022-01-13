@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" type='text/css'>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+</head>
+
+<body>
+    <div id="contain">
+        <h1>People Entered:</h1>
+        <h1 id="count-el">0</h1>
+        <div>
+            <button id="btn-inc" onclick=increment()>INCREMENT</button>
+        </div>
+        <button id="btn-save" onclick=save()>SAVE</button>
+        <div>
+            <button id="btn-reset" onclick=reset()>RESET</button>
+        </div>
+    </div>
+    <div id="count-info">Today's Count: </div>
+    <script src="index.js" type="text/babel"></script>
+</body>
+
+</html>

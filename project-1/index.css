@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRevpaYauwjvxPODJnARNXsLVaB56UKKyEPi9HGIv-NTLIha6jzwGQLmdGZa3IeUEoN0GY&usqp=CAU");
+  background-size: cover;
+}
+
+button {
+  border: none;
+  padding: 1em;
+  width: 200px;
+  margin: 0.5em;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+#btn-inc {
+  background: darkred;
+}
+
+#btn-save {
+  background: darkgreen;
+}
+#btn-reset {
+  background: darkcyan;
+}
+
+#count-info {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
